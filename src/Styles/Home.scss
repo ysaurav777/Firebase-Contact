@@ -1,0 +1,40 @@
+.home-main {
+    background-color: #323334;
+    height: 100vh;
+    padding: 0.5rem;
+}
+
+.search-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.search-input {
+    width: 80%;
+}
+
+.input-area {
+    width: 90%;
+    height: 1.5rem;
+    padding: 0.5rem;
+    background-color: #323334;
+    color: white;
+    border-color: white;
+    border: solid 0.1rem;
+    border-radius: 0.5rem;
+    &::placeholder {
+        color: white;
+    }
+}
+
+.add-contact {
+    background-color: white;
+    color: black;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
