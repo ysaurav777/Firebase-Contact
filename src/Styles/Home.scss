@@ -1,6 +1,6 @@
 .home-main {
     background-color: #323334;
-    height: 100vh;
+    height: 88vh;
     padding: 0.5rem;
 }
 
@@ -9,6 +9,14 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 0.5rem;
+    align-items: center;
+}
+
+.icons-search {
+    color: white;
+    position: absolute;
+    left: 2rem;
+    top: 7.5rem
 }
 
 .search-input {
@@ -16,9 +24,9 @@
 }
 
 .input-area {
-    width: 90%;
+    width: 75%;
     height: 1.5rem;
-    padding: 0.5rem;
+    padding: 0.5rem 2rem;
     background-color: #323334;
     color: white;
     border-color: white;
@@ -37,4 +45,31 @@
     display: flex;
     justify-content: center;
     border-radius: 50%;
+    
+}
+
+.home-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 70%;
+}
+
+.plus-sym {
+    font-size: 2.3rem;
+    font-weight: 800;
+    position: absolute;
+    right: 1.7rem;
+    top: 6.8rem;
+}
+
+.home1-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-contact {
+    color: white;
 }
