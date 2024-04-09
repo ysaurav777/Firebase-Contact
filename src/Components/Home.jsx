@@ -3,6 +3,7 @@ import '../Styles/Home.scss';
 import Contact from '../Assests/Hands_Contact.png';
 import { IoSearchSharp } from "react-icons/io5";
 import { GoPlus } from "react-icons/go";
+import AddContact from './AddContact';
 
 const Home = () => {
   return (
